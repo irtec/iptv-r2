@@ -1,4 +1,10 @@
 #!/bin/bash
+#
+# edited by Iryadinata
+# Web: https://irtech.net
+# GitHub: https://github.com/irtec
+#
+
 echo " "
 jeshile='\e[40;38;5;82m' #jeshile
 jo='\e[0m' # pa ngjyra
