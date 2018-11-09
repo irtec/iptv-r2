@@ -423,7 +423,7 @@ echo -e "${jeshile} ┌───────────────────
 echo -e "${jeshile} │[+] Installation Completed                                │ \e[0m"
 echo -e "${jeshile} └──────────────────────────────────────────────────────────┘ \e[0m"
 echo -e "${jeshile} ┌──────────────────────────────────────────────────────────┐ \e[0m"
-echo -e "${jeshile} │[+] Changes Licences: irtech_pangkalanbun                 │ \e[0m"
+echo -e "${jeshile} │[+] Chucky Metalator                                      │ \e[0m"
 echo -e "${jeshile} └──────────────────────────────────────────────────────────┘ \e[0m"
 echo -e "${jeshile} ┌──────────────────────────────────────────────────────────┐ \e[0m"
 echo -e "${jeshile} │[+] IRTech Network                                        │ \e[0m"
