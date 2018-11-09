@@ -28,7 +28,7 @@ echo " "
 apt-get update && apt-get upgrade -y && apt-get install htop -y
 apt-get install lsb-release nscd curl php5 php5-mysql php5-cli php5-curl unzip curl libcurl3 libcurl3-dev php5-curl -y
 sudo apt-get update && sudo apt-get install vlc vlc-plugin-* -y && sudo apt-get install vlc browser-plugin-vlc -y
-sudo wget https://raw.githubusercontent.com/irtec/iptv-r2/master/youtube-dl -O /usr/local/bin/youtube-dl && chmod a+rx /usr/local/bin/youtube-dl
+sudo wget https://raw.githubusercontent.com/irtec/stream-panel/master/youtube-dl -O /usr/local/bin/youtube-dl && chmod a+rx /usr/local/bin/youtube-dl
 sudo updatedb
 sudo apt-get update
 sudo apt-get install php5-dev php5-gd -y
@@ -368,9 +368,9 @@ echo -e "${jeshile} └───────────────────
 echo " "
 #mkdir /var/www/html
 #cd /var/www/html #DESTINACIONI KRYESOR ADMIN - TEMPLATES ETC
-cd /var/www/html && wget https://sourceforge.net/projects/restream/files/Xtream_Codes_v1.0.60_Nulled.zip && unzip Xtream_Codes_v1.0.60_Nulled.zip && cp /var/www/html/downloads/iptv_panel_pro.zip /tmp && chmod a+x /tmp/iptv_panel_pro.zip && cp /var/www/html/downloads/install_iptv_pro.php /root/ && cd /root && chmod a+x /root/install_iptv_pro.php && php install_iptv_pro.php
-chmod 775 /var/www/html/Xtream_Codes_v1.0.60_Nulled.zip
-rm /var/www/html/Xtream_Codes_v1.0.60_Nulled.zip
+cd /var/www/html && wget https://master.dl.sourceforge.net/project/restream/PanelIPTVIRTech.zip && unzip PanelIPTVIRTech.zip && cp /var/www/html/downloads/iptv_panel_pro.zip /tmp && chmod a+x /tmp/iptv_panel_pro.zip && cp /var/www/html/downloads/install_iptv_pro.php /root/ && cd /root && chmod a+x /root/install_iptv_pro.php && php install_iptv_pro.php
+chmod 775 /var/www/html/PanelIPTVIRTech.zip
+rm /var/www/html/PanelIPTVIRTech.zip
 cp /var/www/html/downloads/iptv_panel_pro.zip /tmp
 chmod a+x /tmp/iptv_panel_pro.zip
 #cp /var/www/html/downloads/install_iptv_pro.php /root/ #FSHIHET AUTOMATIKISHT MBAS INSTALIMIT
@@ -411,7 +411,7 @@ echo -e "${jeshile} │  Removing TEMP Files  │ \e[0m"
 echo -e "${jeshile} └───────────────────────┘ \e[0m"
 echo " "
 rm /root/install_iptv_pro.php
-rm /root/xtreamcodes_1.0.60_Nulled.sh
+rm /root/irtechstream.sh
 echo " "
 echo -e "${jeshile} ┌──────────────────────────────────────────────────────────┐ \e[0m"
 echo -e "${jeshile} │  Xtream Fuckers 10.60 Nulled By Albanian Crackers (TRC4) │ \e[0m"
